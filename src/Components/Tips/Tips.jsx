@@ -4,7 +4,7 @@ const Tips = () => {
   return (
     <div className="container">
       <header>
-        <h1 className="bigHeading">Enkla tips</h1>
+        <h1 className="tipsBigHeading">Enkla tips</h1>
 
         <div className="headerButtons">
           <button>Dark mode</button>
@@ -12,6 +12,7 @@ const Tips = () => {
           <button className="closeButton">X</button>
         </div>
       </header>
+      
 
       <p className="mediumHeading">
         Hur kan du bidra till att bekämpa klimatförändringarna?
@@ -20,6 +21,7 @@ const Tips = () => {
       <div className="outerContainer">
         <div className="innerContainer" id="item1">
           <p className="smallHeading">Minska på köttet</p>
+          <div className="line"></div>
           <p>
             {" "}
             Utsläpp från boskap står för 14,5% av alla växthusgaser. Genom att
@@ -29,6 +31,7 @@ const Tips = () => {
 
         <div className="innerContainer" id="item2">
           <p className="smallHeading">Undvik bilen</p>
+          <div className="line"></div>
           <p>
             {" "}
             Cykla, gå eller använd kollektivtrafiken. Minska antalet bilresor
@@ -38,6 +41,7 @@ const Tips = () => {
 
         <div className="innerContainer" id="item3">
           <p className="smallHeading">Börja källsortera</p>
+          <div className="line"></div>
           <p>
             Sätt upp speciella kärl för att källsortera skräp hemma och i
             skolan. När du källsorterar ditt skräp kan det återvinnas...{" "}
@@ -46,6 +50,7 @@ const Tips = () => {
 
         <div className="innerContainer" id="item4">
           <p className="smallHeading">Börja källsortera</p>
+          <div className="line"></div>
           <p>
             Sätt upp speciella kärl för att källsortera skräp hemma och i
             skolan. När du källsorterar ditt skräp kan det återvinnas...{" "}
@@ -54,6 +59,7 @@ const Tips = () => {
 
         <div className="innerContainer" id="item5">
           <p className="smallHeading">Börja källsortera</p>
+          <div className="line"></div>
           <p>
             Sätt upp speciella kärl för att källsortera skräp hemma och i
             skolan. När du källsorterar ditt skräp kan det återvinnas...{" "}
@@ -62,6 +68,7 @@ const Tips = () => {
 
         <div className="innerContainer" id="item6">
           <p className="smallHeading">Börja källsortera</p>
+          <div className="line"></div>
           <p>
             Sätt upp speciella kärl för att källsortera skräp hemma och i
             skolan. När du källsorterar ditt skräp kan det återvinnas...{" "}
